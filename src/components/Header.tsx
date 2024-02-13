@@ -3,11 +3,12 @@ import Image from "next/image";
 import { biryani } from "@/app/layout";
 
 interface HeaderProps {
-    title: String
+    title: String,
+    children?: React.ReactNode
 }
 
 // This is just the dark blue background with NUSSU logo (without nav components) 
-const Header: React.FC<HeaderProps> = ({title}) => {
+const Header: React.FC<HeaderProps> = ({title, children}) => {
     return (
 
         // Dark Blue background
@@ -27,6 +28,9 @@ const Header: React.FC<HeaderProps> = ({title}) => {
                     height={96}
                     />
             </div>
+
+            {/* Children (additional nav buttons, if any) */}
+            {children}
 
         </div>
 
