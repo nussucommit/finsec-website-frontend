@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react'
 import { dosis } from '@/app/layout'
 
@@ -13,8 +15,9 @@ const Button = ({label} : {label:string}) => {
       bg-greyblue 
       rounded-md
       shadow-inner 
-      `}>{label}</button>
+      `} 
+      onClick={() => alert(`${label} Clicked!!`)}>{label}</button>
   )
 }
 
-export default Button
+export default Button;
