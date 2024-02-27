@@ -33,7 +33,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <title>I love you Jason</title>
+        <title>NUSSU Finsec </title>
         <meta name='description' content='NUSSU Finsec' />
       </head>
       <body className={inter.className}>
