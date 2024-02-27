@@ -18,7 +18,7 @@ const Signup = () => {
       </Header> 
 
       <Authbox>
-        <h1 className={`${biryani.className} font-extrabold text-4xl text-lightblue mt-8 mb-4`}>Welcome</h1>
+        <h1 className={`${biryani.className} font-extrabold text-4xl text-lightblue mt-12 mb-4`}>Welcome</h1>
         <FormField label='Name' type='text' placeholder='' required/>
         <FormField label='Cell/Committee/Project' type='select' placeholder='' required options={dropdown}/>
         <FormField label='Email' type='email' placeholder='' required/>

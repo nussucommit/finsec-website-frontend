@@ -24,7 +24,7 @@ const Header: React.FC<HeaderProps> = ({title, children}) => {
                 <Image
                     src="/images/nussulogo.png" 
                     alt="NUSSU LOGO"
-                    width={96}
+                    width={96   }
                     height={96}
                     />
             </div>

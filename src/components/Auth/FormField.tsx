@@ -22,13 +22,13 @@ const FormField: React.FC<FormFieldProps> = ({ label, type, placeholder, require
 
         {type === 'select' && options 
             ? 
-            <select className='border border-black h-9 p-1'>
+            <select className='border border-black h-9 p-1 drop-shadow-lg'>
                 { options.map((option, index) => (
                     <option key={index} value={option}>{option}</option>
                 ))}
             </select> 
             : 
-            <input className='border border-black h-9 p-2' type={type} placeholder={placeholder} />}
+            <input className='border border-black h-9 p-2 drop-shadow-lg' type={type} placeholder={placeholder} />}
         
     </div>
   )

@@ -14,7 +14,7 @@ const Button = ({label} : {label:string}) => {
       hover:text-lightblue
       bg-greyblue 
       rounded-md
-      shadow-inner 
+      drop-shadow-lg
       `} 
       onClick={() => alert(`${label} Clicked!!`)}>{label}</button>
   )
