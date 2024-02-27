@@ -11,7 +11,8 @@ const config: Config = {
       colors: {
         white: '#ffffff',
         black: '#000000',
-        darkblue: '#234568'
+        darkblue: '#234568',
+        lightblue: '#016D98'
       }
     },
   },

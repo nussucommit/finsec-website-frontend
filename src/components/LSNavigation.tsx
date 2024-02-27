@@ -21,8 +21,8 @@ const LSNavigation: React.FC<LSNavProps> = ({currentPage}) => {
                     <Link 
                         key={href}
                         href={href}
-                        className={currentPage === href ? "text-white font-bold underline" : "text-white"}>                        
-                        <p className={poppins.className}> {label} </p>
+                        className={`${currentPage === href ? 'font-bold underline' : 'font-normal'} text-white ${poppins.className}`}>                        
+                        {label}
                     </Link>
                 ))
             }

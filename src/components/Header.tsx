@@ -12,15 +12,15 @@ const Header: React.FC<HeaderProps> = ({title, children}) => {
     return (
 
         // Dark Blue background
-        <div className="bg-darkblue w-full h-24 fixed top-0 left-0 z-50 flex justify-center items-center">
+        <div className="flex w-full h-24 fixed top-0 left-0 bg-darkblue justify-center items-center">
             
             {/* Title */}
-            <div className="text-white text-4xl">
-                <h1 className={biryani.className}>{title}</h1>
+            <div className="">
+                <h1 className= {`${biryani.className} text-white text-4xl font-extrabold`}>{title}</h1>
             </div>
 
             {/* NUSSU Logo */}
-            <div className="absolute bottom-0 left-0 h-8 w-auto">
+            <div className="absolute bottom-0 left-0 h-8">
                 <Image
                     src="/images/nussulogo.png" 
                     alt="NUSSU LOGO"
