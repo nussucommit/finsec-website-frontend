@@ -9,9 +9,9 @@ interface FormFieldProps {
 
 const FormField: React.FC<FormFieldProps> = ({ label, type, placeholder}) => {
   return (
-    <div className='flex flex-col w-1/2'>
-        <label className={`${dosis.className} font-semibold`}>{label}</label>
-        <input className='border border-black' type={type} placeholder={placeholder} />
+    <div className='flex flex-col w-1/2 mt-4'>
+        <label className={`${dosis.className} font-semibold text-lg`}>{label}</label>
+        <input className='border border-black h-9' type={type} placeholder={placeholder} />
     </div>
   )
 }

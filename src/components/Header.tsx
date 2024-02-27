@@ -12,7 +12,7 @@ const Header: React.FC<HeaderProps> = ({title, children}) => {
     return (
 
         // Dark Blue background
-        <div className="flex w-full h-24 fixed top-0 left-0 bg-darkblue justify-center items-center">
+        <div className="flex w-full h-24 fixed top-0 left-0 bg-darkblue justify-center items-center drop-shadow-xl">
             
             {/* Title */}
             <div className="">
