@@ -37,7 +37,7 @@ export default function RootLayout({
         <meta name='description' content='NUSSU Finsec' />
       </head>
       <body className={inter.className}>
-        
+
         {children}
       </body>
     </html>

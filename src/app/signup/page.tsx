@@ -10,10 +10,6 @@ const Signup = () => {
 
   const dropdown = ['Cell #1', 'Cell #2', 'Cell #3', 'Project #4', 'Project #5', 'Committee #6']; 
 
-  const signupClicked = () => {
-    console.log("sign up clicked!");
-  }
-
   return (
     <main className='flex flex-row h-screen justify-center'>
 
