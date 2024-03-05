@@ -13,7 +13,7 @@ const FormField: React.FC<FormFieldProps> = ({ label, type, placeholder, require
 
   return (
     <div className='flex flex-col w-1/2 mt-4'>
-        <label className={`${dosis.className} font-semibold text-lg`}>
+        <label className={`${dosis.className} font-semibold text-black text-lg`}>
             {label} {required && <span className='text-red-500'>*</span>}
         </label>
 
@@ -22,13 +22,13 @@ const FormField: React.FC<FormFieldProps> = ({ label, type, placeholder, require
 
         {type === 'select' && options 
             ? 
-            <select className='border border-black h-9 p-1 drop-shadow-lg'>
+            <select className='border border-black h-9 p-1 text-black drop-shadow-lg'>
                 { options.map((option, index) => (
                     <option key={index} value={option}>{option}</option>
                 ))}
             </select> 
             : 
-            <input className='border border-black h-9 p-2 drop-shadow-lg' type={type} placeholder={placeholder} />}
+            <input className='border border-black h-9 p-2 text-black drop-shadow-lg' type={type} placeholder={placeholder} />}
         
     </div>
   )
